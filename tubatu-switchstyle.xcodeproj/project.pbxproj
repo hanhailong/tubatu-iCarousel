@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6B78B21BB8BDF700C43C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78B11BB8BDF700C43C41 /* main.m */; };
+		DF6B78B51BB8BDF700C43C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78B41BB8BDF700C43C41 /* AppDelegate.m */; };
+		DF6B78B81BB8BDF700C43C41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78B71BB8BDF700C43C41 /* ViewController.m */; };
+		DF6B78BD1BB8BDF700C43C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6B78BC1BB8BDF700C43C41 /* Assets.xcassets */; };
+		DF6B78C01BB8BDF700C43C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6B78BE1BB8BDF700C43C41 /* LaunchScreen.storyboard */; };
+		DF6B78CB1BB8BDF700C43C41 /* tubatu_switchstyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78CA1BB8BDF700C43C41 /* tubatu_switchstyleTests.m */; };
+		DF6B78D61BB8BDF700C43C41 /* tubatu_switchstyleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78D51BB8BDF700C43C41 /* tubatu_switchstyleUITests.m */; };
+		DF6B78E51BB8CAE200C43C41 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78E41BB8CAE200C43C41 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		DF6B78E81BB8FE7E00C43C41 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6B78E71BB8FE7E00C43C41 /* iCarousel.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6B78C71BB8BDF700C43C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6B78A51BB8BDF700C43C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6B78AC1BB8BDF700C43C41;
+			remoteInfo = "tubatu-switchstyle";
+		};
+		DF6B78D21BB8BDF700C43C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6B78A51BB8BDF700C43C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6B78AC1BB8BDF700C43C41;
+			remoteInfo = "tubatu-switchstyle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF6B78AD1BB8BDF700C43C41 /* tubatu-switchstyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tubatu-switchstyle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6B78B11BB8BDF700C43C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF6B78B31BB8BDF700C43C41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF6B78B41BB8BDF700C43C41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF6B78B61BB8BDF700C43C41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF6B78B71BB8BDF700C43C41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF6B78BC1BB8BDF700C43C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6B78BF1BB8BDF700C43C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF6B78C11BB8BDF700C43C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6B78C61BB8BDF700C43C41 /* tubatu-switchstyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tubatu-switchstyleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6B78CA1BB8BDF700C43C41 /* tubatu_switchstyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tubatu_switchstyleTests.m; sourceTree = "<group>"; };
+		DF6B78CC1BB8BDF700C43C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6B78D11BB8BDF700C43C41 /* tubatu-switchstyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tubatu-switchstyleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6B78D51BB8BDF700C43C41 /* tubatu_switchstyleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tubatu_switchstyleUITests.m; sourceTree = "<group>"; };
+		DF6B78D71BB8BDF700C43C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6B78E31BB8CAE200C43C41 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DF6B78E41BB8CAE200C43C41 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DF6B78E61BB8FE7E00C43C41 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		DF6B78E71BB8FE7E00C43C41 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6B78AA1BB8BDF700C43C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78C31BB8BDF700C43C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78CE1BB8BDF700C43C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6B78A41BB8BDF700C43C41 = {
+			isa = PBXGroup;
+			children = (
+				DF6B78AF1BB8BDF700C43C41 /* tubatu-switchstyle */,
+				DF6B78C91BB8BDF700C43C41 /* tubatu-switchstyleTests */,
+				DF6B78D41BB8BDF700C43C41 /* tubatu-switchstyleUITests */,
+				DF6B78AE1BB8BDF700C43C41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6B78AE1BB8BDF700C43C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B78AD1BB8BDF700C43C41 /* tubatu-switchstyle.app */,
+				DF6B78C61BB8BDF700C43C41 /* tubatu-switchstyleTests.xctest */,
+				DF6B78D11BB8BDF700C43C41 /* tubatu-switchstyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6B78AF1BB8BDF700C43C41 /* tubatu-switchstyle */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B78E61BB8FE7E00C43C41 /* iCarousel.h */,
+				DF6B78E71BB8FE7E00C43C41 /* iCarousel.m */,
+				DF6B78B31BB8BDF700C43C41 /* AppDelegate.h */,
+				DF6B78B41BB8BDF700C43C41 /* AppDelegate.m */,
+				DF6B78B61BB8BDF700C43C41 /* ViewController.h */,
+				DF6B78B71BB8BDF700C43C41 /* ViewController.m */,
+				DF6B78BC1BB8BDF700C43C41 /* Assets.xcassets */,
+				DF6B78BE1BB8BDF700C43C41 /* LaunchScreen.storyboard */,
+				DF6B78C11BB8BDF700C43C41 /* Info.plist */,
+				DF6B78B01BB8BDF700C43C41 /* Supporting Files */,
+				DF6B78E31BB8CAE200C43C41 /* UIView+Extension.h */,
+				DF6B78E41BB8CAE200C43C41 /* UIView+Extension.m */,
+			);
+			path = "tubatu-switchstyle";
+			sourceTree = "<group>";
+		};
+		DF6B78B01BB8BDF700C43C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B78B11BB8BDF700C43C41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6B78C91BB8BDF700C43C41 /* tubatu-switchstyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B78CA1BB8BDF700C43C41 /* tubatu_switchstyleTests.m */,
+				DF6B78CC1BB8BDF700C43C41 /* Info.plist */,
+			);
+			path = "tubatu-switchstyleTests";
+			sourceTree = "<group>";
+		};
+		DF6B78D41BB8BDF700C43C41 /* tubatu-switchstyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B78D51BB8BDF700C43C41 /* tubatu_switchstyleUITests.m */,
+				DF6B78D71BB8BDF700C43C41 /* Info.plist */,
+			);
+			path = "tubatu-switchstyleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6B78AC1BB8BDF700C43C41 /* tubatu-switchstyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6B78DA1BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyle" */;
+			buildPhases = (
+				DF6B78A91BB8BDF700C43C41 /* Sources */,
+				DF6B78AA1BB8BDF700C43C41 /* Frameworks */,
+				DF6B78AB1BB8BDF700C43C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tubatu-switchstyle";
+			productName = "tubatu-switchstyle";
+			productReference = DF6B78AD1BB8BDF700C43C41 /* tubatu-switchstyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6B78C51BB8BDF700C43C41 /* tubatu-switchstyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6B78DD1BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyleTests" */;
+			buildPhases = (
+				DF6B78C21BB8BDF700C43C41 /* Sources */,
+				DF6B78C31BB8BDF700C43C41 /* Frameworks */,
+				DF6B78C41BB8BDF700C43C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6B78C81BB8BDF700C43C41 /* PBXTargetDependency */,
+			);
+			name = "tubatu-switchstyleTests";
+			productName = "tubatu-switchstyleTests";
+			productReference = DF6B78C61BB8BDF700C43C41 /* tubatu-switchstyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF6B78D01BB8BDF700C43C41 /* tubatu-switchstyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6B78E01BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyleUITests" */;
+			buildPhases = (
+				DF6B78CD1BB8BDF700C43C41 /* Sources */,
+				DF6B78CE1BB8BDF700C43C41 /* Frameworks */,
+				DF6B78CF1BB8BDF700C43C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6B78D31BB8BDF700C43C41 /* PBXTargetDependency */,
+			);
+			name = "tubatu-switchstyleUITests";
+			productName = "tubatu-switchstyleUITests";
+			productReference = DF6B78D11BB8BDF700C43C41 /* tubatu-switchstyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6B78A51BB8BDF700C43C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = hhl;
+				TargetAttributes = {
+					DF6B78AC1BB8BDF700C43C41 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DF6B78C51BB8BDF700C43C41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DF6B78AC1BB8BDF700C43C41;
+					};
+					DF6B78D01BB8BDF700C43C41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DF6B78AC1BB8BDF700C43C41;
+					};
+				};
+			};
+			buildConfigurationList = DF6B78A81BB8BDF700C43C41 /* Build configuration list for PBXProject "tubatu-switchstyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6B78A41BB8BDF700C43C41;
+			productRefGroup = DF6B78AE1BB8BDF700C43C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6B78AC1BB8BDF700C43C41 /* tubatu-switchstyle */,
+				DF6B78C51BB8BDF700C43C41 /* tubatu-switchstyleTests */,
+				DF6B78D01BB8BDF700C43C41 /* tubatu-switchstyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6B78AB1BB8BDF700C43C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6B78C01BB8BDF700C43C41 /* LaunchScreen.storyboard in Resources */,
+				DF6B78BD1BB8BDF700C43C41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78C41BB8BDF700C43C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78CF1BB8BDF700C43C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6B78A91BB8BDF700C43C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6B78B81BB8BDF700C43C41 /* ViewController.m in Sources */,
+				DF6B78E81BB8FE7E00C43C41 /* iCarousel.m in Sources */,
+				DF6B78B51BB8BDF700C43C41 /* AppDelegate.m in Sources */,
+				DF6B78E51BB8CAE200C43C41 /* UIView+Extension.m in Sources */,
+				DF6B78B21BB8BDF700C43C41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78C21BB8BDF700C43C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6B78CB1BB8BDF700C43C41 /* tubatu_switchstyleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6B78CD1BB8BDF700C43C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6B78D61BB8BDF700C43C41 /* tubatu_switchstyleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6B78C81BB8BDF700C43C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6B78AC1BB8BDF700C43C41 /* tubatu-switchstyle */;
+			targetProxy = DF6B78C71BB8BDF700C43C41 /* PBXContainerItemProxy */;
+		};
+		DF6B78D31BB8BDF700C43C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6B78AC1BB8BDF700C43C41 /* tubatu-switchstyle */;
+			targetProxy = DF6B78D21BB8BDF700C43C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6B78BE1BB8BDF700C43C41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6B78BF1BB8BDF700C43C41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6B78D81BB8BDF700C43C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF6B78D91BB8BDF700C43C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6B78DB1BB8BDF700C43C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tubatu-switchstyle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6B78DC1BB8BDF700C43C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tubatu-switchstyle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6B78DE1BB8BDF700C43C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tubatu-switchstyleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tubatu-switchstyle.app/tubatu-switchstyle";
+			};
+			name = Debug;
+		};
+		DF6B78DF1BB8BDF700C43C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tubatu-switchstyleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tubatu-switchstyle.app/tubatu-switchstyle";
+			};
+			name = Release;
+		};
+		DF6B78E11BB8BDF700C43C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tubatu-switchstyleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tubatu-switchstyle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF6B78E21BB8BDF700C43C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tubatu-switchstyleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hhl.tubatu-switchstyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tubatu-switchstyle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6B78A81BB8BDF700C43C41 /* Build configuration list for PBXProject "tubatu-switchstyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6B78D81BB8BDF700C43C41 /* Debug */,
+				DF6B78D91BB8BDF700C43C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6B78DA1BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6B78DB1BB8BDF700C43C41 /* Debug */,
+				DF6B78DC1BB8BDF700C43C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6B78DD1BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6B78DE1BB8BDF700C43C41 /* Debug */,
+				DF6B78DF1BB8BDF700C43C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6B78E01BB8BDF700C43C41 /* Build configuration list for PBXNativeTarget "tubatu-switchstyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6B78E11BB8BDF700C43C41 /* Debug */,
+				DF6B78E21BB8BDF700C43C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6B78A51BB8BDF700C43C41 /* Project object */;
+}
